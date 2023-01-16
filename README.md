@@ -1,2 +1,2 @@
-# PHP-Setup
-PHP Setup
+# PHP-Template
+PHP Template
