@@ -38,4 +38,5 @@ remove-setup-files() {
 
 setup-mysql-database
 start-laravel-project
+update-project-name
 remove-setup-files
