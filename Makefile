@@ -30,7 +30,11 @@ install:
 
 # make new model=my_model
 new:
-	${CD} php artisan make:migration create_${model}_table;
+	${CD} php artisan make:model ${model} -mcf;
+
+
+seed:
+	${CD} php artisan db:seed 
 
 
 run:
